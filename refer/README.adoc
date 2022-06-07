@@ -1,0 +1,7 @@
+= Refer
+
+[source, bash]
+----
+docker build -t cloudadc/arcadia-refer:1.0 .
+docker push cloudadc/arcadia-refer:1.0
+----

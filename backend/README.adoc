@@ -1,0 +1,9 @@
+# Back-End
+
+Back-End app for Arcadia
+
+[sourcce, bash]
+----
+docker build -t cloudadc/arcadia-backend:1.0 .
+docker push cloudadc/arcadia-backend:1.0
+----
