@@ -28,7 +28,7 @@ spec:
       containers:
       - env:
         - name: service_name
-          value: backend
+          value: backend-svc
         image: cloudadc/arcadia-backend:1.0
         imagePullPolicy: IfNotPresent
         name: backend
@@ -78,8 +78,8 @@ spec:
       containers:
       - env:
         - name: service_name
-          value: main
-        image: cloudadc/arcadia-main:1.0
+          value: main-svc
+        image: cloudadc/arcadia-main:1.1
         imagePullPolicy: IfNotPresent
         name: main
         ports:
@@ -129,7 +129,7 @@ spec:
       containers:
       - env:
         - name: service_name
-          value: app2
+          value: api-svc
         image: cloudadc/arcadia-api:1.0
         imagePullPolicy: IfNotPresent
         name: api
@@ -178,7 +178,7 @@ spec:
       containers:
       - env:
         - name: service_name
-          value: app3
+          value: refer-svc
         image: cloudadc/arcadia-refer:1.0
         imagePullPolicy: IfNotPresent
         name: refer

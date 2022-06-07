@@ -3,8 +3,8 @@
 [source, bash]
 .*Build*
 ----
-docker build -t cloudadc/arcadia-main:1.0 .
-docker push cloudadc/arcadia-main:1.0 
+docker build -t cloudadc/arcadia-main:1.1 .
+docker push cloudadc/arcadia-main:1.1 
 ----
 
 [source, bash]
